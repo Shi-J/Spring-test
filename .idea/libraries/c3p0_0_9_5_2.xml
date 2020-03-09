@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/lib/mysql-connector-java-5.1.46.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

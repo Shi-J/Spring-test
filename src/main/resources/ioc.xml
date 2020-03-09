@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd" >
+
+    <!--
+        一个bean 对应一个组件
+        id:对应这唯一标识
+        class:需要注入的全类名
+     -->
+    <bean id="person1" class="com.stone.dome.model.Person">
+        <!--
+            使用property给属性赋值 name指的是该类的属性名 ，value 值的是该属性对应的属性值
+            property 赋值也称为 set  赋值 ，需要复制的属性，必须通过set方法 ，如果不提供set方法无法赋值
+            并且name的值也是由该类中set方法的名字命名的 ，命名规则为set去掉，首字母小写
+        -->
+        <property name="name" value="zs"></property>
+        <property name="sex" value="男"></property>
+        <property name="age" value="23"></property>
+    </bean>
+
+    <bean id="person2" class="com.stone.dome.model.Person" scope="singleton">
+        <!--
+            使用property给属性赋值 name指的是该类的属性名 ，value 值的是该属性对应的属性值
+            property 赋值也称为 set  赋值 ，需要复制的属性，必须通过set方法 ，如果不提供set方法无法赋值
+            并且name的值也是由该类中set方法的名字命名的 ，命名规则为set去掉，首字母小写
+        -->
+        <property name="name" value="ls"></property>
+        <property name="sex" value="男"></property>
+        <property name="age" value="24"></property>
+    </bean>
+
+
+    <bean id="person3" class="com.stone.dome.model.Person">
+        <!--
+            每一个constructor-arg对应着构造器中一个属性
+            name 代表构造器中的属性名， value代表给属性名赋值
+         -->
+        <constructor-arg name="name" value="ww"></constructor-arg>
+        <constructor-arg name="sex" value="女"></constructor-arg>
+        <constructor-arg name="age" value="25"></constructor-arg>
+    </bean>
+
+
+    <!-- 构造器赋值 name 可以省略 ，但是不推荐省略，如果要省略就必须严格按照构造器中属性的位置依次赋值-->
+    <bean id="person4" class="com.stone.dome.model.Person">
+        <constructor-arg  value="ww" ></constructor-arg>
+        <constructor-arg value="女"></constructor-arg>
+        <constructor-arg value="25"></constructor-arg>
+    </bean>
+
+
+
+    <bean id="person5" class="com.stone.dome.model.Person"
+    p:name="zl" p:age="26" p:sex="男">
+
+    </bean>
+
+
+
+    <!-- 加载外部配置文件-->
+   <context:property-placeholder location="jdbc.properties"/>
+
+    <!-- 配置数据源-->
+    <bean  id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc_username}"></property>
+        <property name="password" value="${jdbc_password}"></property>
+        <property name="jdbcUrl" value="${jdbc_url}"></property>
+        <property name="driverClass" value="${jdbc_driver}"></property>
+    </bean>
+
+
+
+
+</beans>

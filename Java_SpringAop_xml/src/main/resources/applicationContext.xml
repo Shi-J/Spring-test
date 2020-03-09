@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 基于注解版的aop
+        1.  将目标对象和切面类加入到ioc容器当中
+        2.  告诉spring那个是切面类
+        3.  在切面类中配置五种通知，并且配置五种通知的运行时机
+    -->
+
+    <!--    将目标对象加载到ioc容器   -->
+    <bean id="operation" class="com.stone.aopdome.operation.impl.OperationImpl">
+
+    </bean>
+
+    <!--    将切面类加载到ioc容器   -->
+    <bean id="operationProxy" class="com.stone.aopdome.proxy.OperationProxy">
+
+    </bean>
+
+
+    <aop:config>
+        <!--    aop:pointcut全局的切面点表达式   -->
+        <aop:pointcut id="myPointcut" expression="execution(* com.stone.aopdome.operation.impl.OperationImpl.*(..))"/>
+
+        <!--    aop:aspect 配置谁是切面类 如果有多个切面配置多个aop:aspect   -->
+        <aop:aspect ref="operationProxy">
+            <!--    在切面类中配置五种通知     -->
+            <!--
+                before前置通知 ，after后置通知，after-throwing异常通知，after-returning最终通知，around环绕通知
+                method通知类方法，
+                pointcut切入点表达式，
+                pointcut-ref 引入指定的切面的表达式
+            -->
+            <aop:before method="logbefore" pointcut="execution(* com.stone.aopdome.operation.impl.OperationImpl.*(..))"/>
+            <aop:after method="logAfter" pointcut-ref="myPointcut"/>
+            <aop:after-throwing method="logException" pointcut-ref="myPointcut" throwing="e"/>
+            <aop:after-returning method="logFinal" pointcut-ref="myPointcut" returning="result"/>
+            <aop:around method="logAround" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+
+    </aop:config>
+
+
+</beans>

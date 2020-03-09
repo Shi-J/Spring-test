@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aspectjrt-1.9.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/lib/aspectjrt-1.9.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

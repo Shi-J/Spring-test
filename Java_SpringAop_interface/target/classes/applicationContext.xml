@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--    将目标对象加载到ioc容器   -->
+    <bean id="operation" class="com.stone.aopdome.operation.impl.OperationImpl"></bean>
+
+    <!--    将前置通知配置到ioc容器当中 -->
+    <bean id="before" class="com.stone.aopdome.proxy.LogBefore"></bean>
+
+    <!--    将后置通知配置到ioc容器当中 -->
+    <bean id="after" class="com.stone.aopdome.proxy.LogAfterReturning"></bean>
+
+    <!--    将异常通知配置到ioc容器当中 -->
+    <bean id="throwing" class="com.stone.aopdome.proxy.LogThrowing"></bean>
+
+    <!--    将环绕通知配置到ioc容器当中 -->
+    <bean id="around" class="com.stone.aopdome.proxy.LogAround"></bean>
+
+    <!--    将目标对象 和 通知 链接 起来 -->
+    <aop:config>
+        <!--    aop:pointcut全局的切面点表达式   -->
+        <aop:pointcut id="myPointcut" expression="execution(* com.stone.aopdome.operation.impl.OperationImpl.*(..))"/>
+
+        <!--    aop:advisor配置通知方法和切入点表达式进行关联    -->
+        <aop:advisor advice-ref="before" pointcut-ref="myPointcut"/>
+
+        <aop:advisor advice-ref="after" pointcut-ref="myPointcut"/>
+
+        <aop:advisor advice-ref="throwing" pointcut-ref="myPointcut"/>
+
+        <aop:advisor advice-ref="around" pointcut-ref="myPointcut"/>
+
+    </aop:config>
+
+
+
+
+</beans>

@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Java_Spring_web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91559c74-a617-44ea-9677-c77f165ff7db" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Java_SpringAop/target/" />
+    <ignored path="$PROJECT_DIR$/Java_SpringAop/Java_SpringAop_xml/target/" />
+    <ignored path="$PROJECT_DIR$/Java_SpringAop_xml/target/" />
+    <ignored path="$PROJECT_DIR$/Java_SpringAop_interface/target/" />
+    <ignored path="$PROJECT_DIR$/Java_Spring_tx/target/" />
+    <ignored path="$PROJECT_DIR$/Java_Spring_tx_xml/target/" />
+    <ignored path="$PROJECT_DIR$/Java_Spring_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_Spring_web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="11" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DataSource</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/stone/dome/servlet/BookServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stone/dome/service/BookService.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/java/com/stone/aopdome/operation/OperationTest.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/java/com/stone/aopdome/operation/impl/OperationImpl.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/java/com/stone/aopdome/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/java/com/stone/aopdome/proxy/OperationProxy.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/src/main/java/com/stone/aopdome/test/SpringAopTest.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/java/com/stone/aopdome/proxy/OperationProxy.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/java/com/stone/aopdome/test/SpringAopTest.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/java/com/stone/aopdome/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/java/com/stone/aopdome/operation/impl/OperationImpl.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/java/com/stone/aopdome/test/SpringAopXmlTest.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/OperationProxy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogBefore.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/test/SpringAopInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogThrowing.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogAfter.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/operation/impl/OperationImpl.java" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogAround.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/service/BalanceTest.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/servlet/BalanceServlet.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/Java_SpringAop/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_SpringAop_interface/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/service/BalanceService.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/servlet/BalanceController.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/test/BalanceTest.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/target/classes/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/dao/BalanceDao.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/service/BalanceService.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/servlet/BalanceController.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/test/BalanceTest.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/dao/BalanceDao.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/servlet/BookContext.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/service/BookService.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/servlet/BookController.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/test/SpringWebTest.java" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Java_Spring_web/src/main/webapp/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Spring_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_tx_xml\src\main\resources\lib" />
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_tx_xml\src" />
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_tx\src" />
+      <recent name="D:\Testenv\idea\Java_Spring" />
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_tx\src\main\resources\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_web\src\main\resources" />
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_web\src\main\webapp\WEB-INF" />
+      <recent name="D:\Testenv\idea\Java_Spring\Java_Spring_tx_xml\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.90">
+    <configuration name="SpringWebTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stone.web.test.SpringWebTest" />
+      <module name="Java_Spring_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stone.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Spring_tx_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stone.tx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stone.tx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.stone.tx.test.BalanceTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Spring_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stone.tx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stone.tx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.stone.tx.test.BalanceTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookController.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Spring_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stone.web.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stone.web.servlet" />
+      <option name="MAIN_CLASS_NAME" value="com.stone.web.servlet.BookController" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringWebTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Spring_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stone.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stone.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.stone.web.test.SpringWebTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/Java_Spring_web" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Java_Spring_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Java_Spring_web" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Java_Spring" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52139" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Java_Spring_web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringWebTest" />
+      <item itemvalue="JUnit.BalanceTest.test01" />
+      <item itemvalue="JUnit.BalanceTest.test01 (1)" />
+      <item itemvalue="JUnit.SpringWebTest.test" />
+      <item itemvalue="JUnit.BookController.addBook" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.90" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringWebTest.test" />
+        <item itemvalue="JUnit.BookController.addBook" />
+        <item itemvalue="Application.SpringWebTest" />
+        <item itemvalue="JUnit.BalanceTest.test01 (1)" />
+        <item itemvalue="JUnit.BalanceTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91559c74-a617-44ea-9677-c77f165ff7db" name="Default Changelist" comment="" />
+      <created>1580383465139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580383465139</updated>
+      <workItem from="1580383468454" duration="10254000" />
+      <workItem from="1580444914850" duration="13938000" />
+      <workItem from="1580535267246" duration="24969000" />
+      <workItem from="1580617739826" duration="26426000" />
+      <workItem from="1580655511662" duration="1203000" />
+      <workItem from="1580704945852" duration="24424000" />
+      <workItem from="1580799154866" duration="2386000" />
+      <workItem from="1580805624024" duration="8692000" />
+      <workItem from="1580815962542" duration="4000" />
+      <workItem from="1580819027574" duration="21000" />
+      <workItem from="1580819535127" duration="24000" />
+      <workItem from="1580823930200" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BalanceTest_test01_(1) - 2020.02.03 at 20h 50m 24s.xml">
+      <configuration name="BalanceTest.test01 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceTest_test01_(1) - 2020.02.03 at 20h 56m 13s.xml">
+      <configuration name="BalanceTest.test01 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceTest_test01_(1) - 2020.02.03 at 21h 00m 47s.xml">
+      <configuration name="BalanceTest.test01 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceTest_test01_(1) - 2020.02.03 at 21h 06m 37s.xml">
+      <configuration name="BalanceTest.test01 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringWebTest_test - 2020.02.04 at 18h 55m 48s.xml">
+      <configuration name="SpringWebTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookController_addBook - 2020.02.04 at 19h 03m 22s.xml">
+      <configuration name="BookController.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookController_addBook - 2020.02.04 at 19h 06m 47s.xml">
+      <configuration name="BookController.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookController_addBook - 2020.02.04 at 19h 07m 31s.xml">
+      <configuration name="BookController.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookController_addBook - 2020.02.04 at 19h 12m 25s.xml">
+      <configuration name="BookController.addBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringWebTest_test - 2020.02.04 at 19h 16m 27s.xml">
+      <configuration name="SpringWebTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112367000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10638298" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.13420622" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.2536825" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/OperationProxy.java" />
+    <entry file="file://$PROJECT_DIR$/Java_Spring.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MavenWarehouse/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MavenWarehouse/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE-sources.jar!/org/springframework/aop/ThrowsAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="108" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MavenWarehouse/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE-sources.jar!/org/springframework/aop/AfterAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogAfter.java" />
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/operation/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/operation/impl/OperationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="5" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogBefore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogAfterReturning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogAround.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="6" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/proxy/LogThrowing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/java/com/stone/aopdome/test/SpringAopInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/a.java" />
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_interface/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-tx-4.3.9.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ioc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="e#2547#2565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/service/BalanceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/servlet/BalanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_xml/src/main/java/com/stone/tx/dao/BalanceDao.java" />
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop_xml/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="31" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/test/BalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/java/com/stone/tx/dao/BalanceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/target/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="90" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/service/BalanceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" selection-start-line="10" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/servlet/BalanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/dao/BalanceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/java/com/stone/tx/test/BalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="90" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/a.java" />
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_tx_xml/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_SpringAop/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/servlet/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/java/com/stone/web/test/SpringWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1119" column="6" selection-start-line="1119" selection-start-column="6" selection-end-line="1119" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_Spring_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Java_Spring_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java_Spring_tx_xml</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aopalliance-1.0 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

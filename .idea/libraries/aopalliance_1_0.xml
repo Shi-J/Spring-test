@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/aspectjweaver-1.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/mysql-connector-java-5.0.8-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-aop-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-beans-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-context-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-core-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-expression-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-jdbc-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Java_Spring_tx/src/main/resources/lib/spring-tx-4.3.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

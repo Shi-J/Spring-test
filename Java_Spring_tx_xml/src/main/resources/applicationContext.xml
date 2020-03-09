@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!-- 扫描com.stone.dome包下的所有注解 -->
+    <context:component-scan base-package="com.stone.tx"/>
+
+
+    <!-- 加载外部配置文件-->
+    <context:property-placeholder location="jdbc.properties"/>
+    <!-- 配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc_username}"></property>
+        <property name="password" value="${jdbc_password}"></property>
+        <property name="jdbcUrl" value="${jdbc_url}"></property>
+        <property name="driverClass" value="${jdbc_driver}"></property>
+    </bean>
+
+    <!--    配置jdbcTemplate  -->
+    <bean id="jdbcTemplate1" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <!--  配置事务管理器  -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--    控制数据源   -->
+        <property name="dataSource" ref="dataSource"></property>
+
+    </bean>
+
+
+    <!--
+        1.将需要进行事务控制的类加载到ioc容器当中
+    -->
+    <bean id="balanceDao1" class="com.stone.tx.dao.BalanceDao"></bean>
+
+
+
+
+
+
+    <aop:config>
+        <!--    配置切面方法  -->
+        <aop:pointcut expression="execution(*   com.stone.tx.dao.BalanceDao.updateBalance(..))" id="pointcut"/>
+        <aop:advisor advice-ref="interceptor" pointcut-ref="pointcut"></aop:advisor>
+    </aop:config>
+
+    <!--    配置事务管理器 -->
+    <tx:advice id="interceptor" transaction-manager="transactionManager">
+        <!--    配置事务属性  -->
+        <tx:attributes>
+            <!--    指明那些方法是事务方法 -->
+            <tx:method name="*"/> <!-- *代表所有方法-->
+            <tx:method name="updateBalance" timeout="-1"/> <!--  updateBalance方法 propagation传播行为，超时时间....都能在这个里面配置   -->
+        </tx:attributes>
+    </tx:advice>
+
+
+</beans>
